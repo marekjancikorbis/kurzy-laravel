@@ -57,3 +57,7 @@ Test `test_course_is_created_and_stored` vytvoří kurz a ověří, že je ulož
 - `app/Http/Controllers` – CourseController, ParticipantController, EnrollmentController
 - `resources/views` – šablony
 - `tests/Feature/CoursesTest.php` – automatické testy
+
+## Licence
+
+Školní projekt, pouze pro výuku.
