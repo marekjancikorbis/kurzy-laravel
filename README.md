@@ -2,24 +2,17 @@
 
 Aplikace v Laravelu (SQLite, Blade) pro nabídku kurzů a přihlašování účastníků.
 
-## První spuštění
+## Spuštění projektu
 
 ```
 composer install
 copy .env.example .env
 php artisan key:generate
 php artisan migrate
-```
-
-Databáze je soubor `database/database.sqlite` (vytvoří se při migraci).
-
-## Spuštění
-
-```
 php artisan serve
 ```
 
-Aplikace běží na http://127.0.0.1:8000.
+Kroky `copy` a `key:generate` stačí provést jen při prvním spuštění. Databáze je soubor `database/database.sqlite` (vytvoří se při migraci). Aplikace běží na http://127.0.0.1:8000.
 
 ## Automatická kontrola
 
